@@ -1,10 +1,9 @@
 {
   "name": "git-branch-organiser",
-  "productName": "git-branch-organiser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight Electron desktop application for managing local git branches",
   "main": ".vite/build/main.js",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
