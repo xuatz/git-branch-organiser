@@ -1,0 +1,59 @@
+{
+  "name": "git-branch-organiser",
+  "productName": "git-branch-organiser",
+  "version": "1.0.0",
+  "description": "A lightweight Electron desktop application for managing local git branches",
+  "main": ".vite/build/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "oxlint --tsconfig ./tsconfig.json",
+    "format": "oxfmt --write src",
+    "format:check": "oxfmt src"
+  },
+  "keywords": [],
+  "author": {
+    "name": "xuatz",
+    "email": "xzlow10@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22",
+    "pnpm": "10.x"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.11.1",
+    "@electron-forge/maker-deb": "^7.11.1",
+    "@electron-forge/maker-rpm": "^7.11.1",
+    "@electron-forge/maker-squirrel": "^7.11.1",
+    "@electron-forge/maker-zip": "^7.11.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.11.1",
+    "@electron-forge/plugin-fuses": "^7.11.1",
+    "@electron-forge/plugin-vite": "^7.11.1",
+    "@electron/fuses": "^1.8.0",
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "@types/electron-squirrel-startup": "^1.0.2",
+    "@types/node": "^25.3.0",
+    "electron": "40.6.0",
+    "oxfmt": "^0.35.0",
+    "oxlint": "^1.50.0",
+    "svelte": "^4.2.20",
+    "typescript": "~5.9.3",
+    "vite": "^5.4.21"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "simple-git": "^3.32.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "electron",
+      "electron-winstaller",
+      "esbuild"
+    ]
+  },
+  "packageManager": "pnpm@10.30.1+sha512.3590e550d5384caa39bd5c7c739f72270234b2f6059e13018f975c313b1eb9fefcc09714048765d4d9efe961382c312e624572c0420762bdc5d5940cdf9be73a"
+}
