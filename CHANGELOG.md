@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/xuatz/git-branch-organiser/compare/git-branch-organiser-v1.1.0...git-branch-organiser-v1.2.0) (2026-02-28)
+
+
+### Features
+
+* update release.yml ([8d03c5e](https://github.com/xuatz/git-branch-organiser/commit/8d03c5e94206b4da8eb518ba4496375aab83c667))
+
 ## [1.1.0](https://github.com/xuatz/git-branch-organiser/compare/git-branch-organiser-v1.0.0...git-branch-organiser-v1.1.0) (2026-02-28)
 
 
