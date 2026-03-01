@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/xuatz/git-branch-organiser/compare/git-branch-organiser-v1.2.0...git-branch-organiser-v1.3.0) (2026-03-01)
+
+
+### Features
+
+* try to fix release asset upload for the x time ([b26fa8c](https://github.com/xuatz/git-branch-organiser/commit/b26fa8c37e1abd705416a48975a7f80a29ef05ca))
+
 ## [1.2.0](https://github.com/xuatz/git-branch-organiser/compare/git-branch-organiser-v1.1.0...git-branch-organiser-v1.2.0) (2026-02-28)
 
 
